@@ -1,0 +1,1326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		515C393024B485170079794B /* Pool_8s+.png in Resources */ = {isa = PBXBuildFile; fileRef = 515C392124B485160079794B /* Pool_8s+.png */; };
+		515C393124B485170079794B /* Plumber_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 515C392224B485160079794B /* Plumber_11.png */; };
+		515C393224B485170079794B /* Inspection_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 515C392324B485160079794B /* Inspection_8.png */; };
+		515C393324B485170079794B /* Pool_SE.png in Resources */ = {isa = PBXBuildFile; fileRef = 515C392424B485160079794B /* Pool_SE.png */; };
+		515C393424B485170079794B /* Inspection_11Max.png in Resources */ = {isa = PBXBuildFile; fileRef = 515C392524B485160079794B /* Inspection_11Max.png */; };
+		515C393524B485170079794B /* Pool_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 515C392624B485170079794B /* Pool_11.png */; };
+		515C393624B485180079794B /* Pool_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 515C392724B485170079794B /* Pool_8.png */; };
+		515C393724B485180079794B /* Inspection_SE.png in Resources */ = {isa = PBXBuildFile; fileRef = 515C392824B485170079794B /* Inspection_SE.png */; };
+		515C393824B485180079794B /* Plumber_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 515C392924B485170079794B /* Plumber_8.png */; };
+		515C393924B485180079794B /* Pool_11Max.png in Resources */ = {isa = PBXBuildFile; fileRef = 515C392A24B485170079794B /* Pool_11Max.png */; };
+		515C393A24B485180079794B /* Inspection_8s+.png in Resources */ = {isa = PBXBuildFile; fileRef = 515C392B24B485170079794B /* Inspection_8s+.png */; };
+		515C393B24B485180079794B /* Plumber_8s+.png in Resources */ = {isa = PBXBuildFile; fileRef = 515C392C24B485170079794B /* Plumber_8s+.png */; };
+		515C393C24B485180079794B /* Plumber_SE.png in Resources */ = {isa = PBXBuildFile; fileRef = 515C392D24B485170079794B /* Plumber_SE.png */; };
+		515C393D24B485180079794B /* Inspection_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 515C392E24B485170079794B /* Inspection_11.png */; };
+		515C393E24B485180079794B /* Plumber_11Max.png in Resources */ = {isa = PBXBuildFile; fileRef = 515C392F24B485170079794B /* Plumber_11Max.png */; };
+		515C394024B485270079794B /* leaktronics-splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 515C393F24B485270079794B /* leaktronics-splash.png */; };
+		5C7A1DC1B615182C2B206F7B /* Pods_Leaktronics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE9EC85CE5AF03F530ADD54 /* Pods_Leaktronics.framework */; };
+		672362D9247EF2C3004804F8 /* InspectPlumbingStatistic2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672362D6247EF2BF004804F8 /* InspectPlumbingStatistic2VC.swift */; };
+		672362DA247EF2C3004804F8 /* InspectPlumbingStatisticVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672362D7247EF2C0004804F8 /* InspectPlumbingStatisticVC.swift */; };
+		672362DB247EF2C3004804F8 /* InspectVisualLeakVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672362D8247EF2C2004804F8 /* InspectVisualLeakVC.swift */; };
+		672362DD247EF2E3004804F8 /* InspectVisualLeakTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672362DC247EF2E2004804F8 /* InspectVisualLeakTableCell.swift */; };
+		6744C42924B7227C00819403 /* AccountSettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6744C42824B7227C00819403 /* AccountSettingsVC.swift */; };
+		6764CF3824BF2CEE009059D6 /* PoolDetectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6764CF3724BF2CEE009059D6 /* PoolDetectVC.swift */; };
+		6766D716248FD4190098C33D /* HelpSupportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6766D713248FD4180098C33D /* HelpSupportVC.swift */; };
+		6766D718248FD4190098C33D /* SubscriptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6766D715248FD4190098C33D /* SubscriptionVC.swift */; };
+		676EFACF24C1E98700AB4610 /* ShowPDFVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EFACE24C1E98700AB4610 /* ShowPDFVC.swift */; };
+		678102C7245540250022610D /* PlumberPhoneQuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678102C6245540250022610D /* PlumberPhoneQuestionVC.swift */; };
+		6782627F245588140006813A /* CommercialLeakDetectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6782627E245588140006813A /* CommercialLeakDetectionVC.swift */; };
+		67905639243B120300E24E4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67905638243B120300E24E4A /* AppDelegate.swift */; };
+		6790563B243B120300E24E4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6790563A243B120300E24E4A /* SceneDelegate.swift */; };
+		6790563D243B120300E24E4A /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6790563C243B120300E24E4A /* LoginVC.swift */; };
+		67905640243B120300E24E4A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6790563E243B120300E24E4A /* Main_iPhone.storyboard */; };
+		67905643243B120300E24E4A /* Leaktronics.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67905641243B120300E24E4A /* Leaktronics.xcdatamodeld */; };
+		67905645243B120500E24E4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67905644243B120500E24E4A /* Assets.xcassets */; };
+		67905648243B120500E24E4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67905646243B120500E24E4A /* LaunchScreen.storyboard */; };
+		67905663243B147600E24E4A /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67905653243B147600E24E4A /* Roboto-Medium.ttf */; };
+		67905664243B147600E24E4A /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67905654243B147600E24E4A /* Roboto-Light.ttf */; };
+		67905665243B147600E24E4A /* METADATA.pb in Resources */ = {isa = PBXBuildFile; fileRef = 67905655243B147600E24E4A /* METADATA.pb */; };
+		67905666243B147600E24E4A /* COPYRIGHT.txt in Resources */ = {isa = PBXBuildFile; fileRef = 67905656243B147600E24E4A /* COPYRIGHT.txt */; };
+		67905667243B147600E24E4A /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67905657243B147600E24E4A /* Roboto-Regular.ttf */; };
+		67905668243B147600E24E4A /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67905658243B147600E24E4A /* Roboto-MediumItalic.ttf */; };
+		67905669243B147600E24E4A /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67905659243B147600E24E4A /* Roboto-ThinItalic.ttf */; };
+		6790566A243B147600E24E4A /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6790565A243B147600E24E4A /* Roboto-BoldItalic.ttf */; };
+		6790566B243B147600E24E4A /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6790565B243B147600E24E4A /* Roboto-LightItalic.ttf */; };
+		6790566C243B147600E24E4A /* DESCRIPTION.en_us.html in Resources */ = {isa = PBXBuildFile; fileRef = 6790565C243B147600E24E4A /* DESCRIPTION.en_us.html */; };
+		6790566D243B147600E24E4A /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6790565D243B147600E24E4A /* Roboto-Italic.ttf */; };
+		6790566E243B147600E24E4A /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6790565E243B147600E24E4A /* LICENSE.txt */; };
+		6790566F243B147600E24E4A /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6790565F243B147600E24E4A /* Roboto-BlackItalic.ttf */; };
+		67905670243B147600E24E4A /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67905660243B147600E24E4A /* Roboto-Bold.ttf */; };
+		67905671243B147600E24E4A /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67905661243B147600E24E4A /* Roboto-Thin.ttf */; };
+		67905672243B147600E24E4A /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67905662243B147600E24E4A /* Roboto-Black.ttf */; };
+		67905676243B30B100E24E4A /* CustomOutlinedTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67905675243B30B100E24E4A /* CustomOutlinedTxtField.swift */; };
+		67905678243B484100E24E4A /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67905677243B484100E24E4A /* RegistrationViewController.swift */; };
+		679C6F4024B82EF50010A24F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 679C6F3F24B82EF50010A24F /* GoogleService-Info.plist */; };
+		679F8EF3243E31BE0052E64E /* VisualLeakVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679F8EF2243E31BE0052E64E /* VisualLeakVC.swift */; };
+		67D42A30248065370057764B /* InspectCompleteSummaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D42A2F248065370057764B /* InspectCompleteSummaryVC.swift */; };
+		67D42A3224806A770057764B /* InspectSummaryTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D42A3124806A770057764B /* InspectSummaryTableCell.swift */; };
+		67DDB82F243C290D0009E880 /* Home_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67DDB82E243C290D0009E880 /* Home_iPhone.storyboard */; };
+		67DDB831243C29280009E880 /* InspectionListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DDB830243C29280009E880 /* InspectionListVC.swift */; };
+		67DDB83F243C39080009E880 /* InspectionListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DDB83E243C39080009E880 /* InspectionListCollectionViewCell.swift */; };
+		67F112602472842100057B29 /* InspectionTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F1125E2472842000057B29 /* InspectionTableCell.swift */; };
+		67F112612472842100057B29 /* InspectFittingsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F1125F2472842100057B29 /* InspectFittingsTableCell.swift */; };
+		67F5BC792474C00B00CCC0C4 /* InspectQuestionnaireFormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F5BC782474C00900CCC0C4 /* InspectQuestionnaireFormVC.swift */; };
+		67FC7BD0243C75B1006BD893 /* PlumberLeak.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67FC7BCF243C75B1006BD893 /* PlumberLeak.storyboard */; };
+		67FC7BD3243C781A006BD893 /* PlumberContactFormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC7BD2243C781A006BD893 /* PlumberContactFormVC.swift */; };
+		67FC7BE6243CA908006BD893 /* PoolDetectionContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC7BE4243CA908006BD893 /* PoolDetectionContactVC.swift */; };
+		67FC7BE7243CA908006BD893 /* PoolDetection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67FC7BE5243CA908006BD893 /* PoolDetection.storyboard */; };
+		78F16B5524C97483000E620E /* HelpCenterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F16B5424C97483000E620E /* HelpCenterVC.swift */; };
+		78F16B5724C9749E000E620E /* EmailTechnicalSupportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F16B5624C9749E000E620E /* EmailTechnicalSupportVC.swift */; };
+		78F16B5924C993A4000E620E /* HelpCenterTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F16B5824C993A4000E620E /* HelpCenterTableCell.swift */; };
+		9F05639C2449C22F00090C67 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F05639A2449C22E00090C67 /* Main_iPad.storyboard */; };
+		9F0EA0EF249B930100695F03 /* HelpSupportTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0EA0EE249B930100695F03 /* HelpSupportTableCell.swift */; };
+		9F19E9FC243CB1C800F6FA44 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F19E9F7243CB1C700F6FA44 /* Poppins-Medium.ttf */; };
+		9F19E9FD243CB1C800F6FA44 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F19E9F8243CB1C700F6FA44 /* Poppins-Light.ttf */; };
+		9F19E9FE243CB1C800F6FA44 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F19E9F9243CB1C800F6FA44 /* Poppins-Bold.ttf */; };
+		9F19E9FF243CB1C800F6FA44 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F19E9FA243CB1C800F6FA44 /* Poppins-Regular.ttf */; };
+		9F19EA00243CB1C800F6FA44 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F19E9FB243CB1C800F6FA44 /* Poppins-SemiBold.ttf */; };
+		9F1EC3862488C752005D748D /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1EC3852488C752005D748D /* SideMenuVC.swift */; };
+		9F1EC3882488CF7F005D748D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1EC3872488CF7F005D748D /* BaseViewController.swift */; };
+		9F1EC38A2488DC24005D748D /* ReportListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1EC3892488DC24005D748D /* ReportListVC.swift */; };
+		9F486B73243D90C60045EDFD /* QuestionnaireForm1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F486B72243D90C60045EDFD /* QuestionnaireForm1VC.swift */; };
+		9F486B88243D96D60045EDFD /* NDButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F486B75243D96D40045EDFD /* NDButton.m */; };
+		9F486B89243D96D60045EDFD /* UIViewControllerX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F486B76243D96D40045EDFD /* UIViewControllerX.swift */; };
+		9F486B8A243D96D60045EDFD /* UIVisualEffectViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F486B77243D96D40045EDFD /* UIVisualEffectViewX.swift */; };
+		9F486B8B243D96D60045EDFD /* NDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F486B78243D96D40045EDFD /* NDView.m */; };
+		9F486B8C243D96D60045EDFD /* UIViewXRadialGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F486B79243D96D40045EDFD /* UIViewXRadialGradient.swift */; };
+		9F486B8D243D96D60045EDFD /* UIViewAnchorPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F486B7A243D96D40045EDFD /* UIViewAnchorPoint.swift */; };
+		9F486B8E243D96D60045EDFD /* UISliderX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F486B7B243D96D40045EDFD /* UISliderX.swift */; };
+		9F486B8F243D96D60045EDFD /* UIImageViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F486B7C243D96D50045EDFD /* UIImageViewX.swift */; };
+		9F486B90243D96D60045EDFD /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F486B7F243D96D50045EDFD /* UIViewX.swift */; };
+		9F486B91243D96D60045EDFD /* UILabelX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F486B81243D96D50045EDFD /* UILabelX.swift */; };
+		9F486B92243D96D60045EDFD /* UITextFieldX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F486B83243D96D50045EDFD /* UITextFieldX.swift */; };
+		9F486B93243D96D60045EDFD /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F486B85243D96D60045EDFD /* UIButtonX.swift */; };
+		9F486B94243D96D60045EDFD /* NDDropDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F486B86243D96D60045EDFD /* NDDropDown.m */; };
+		9F486B95243D96D60045EDFD /* NDTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F486B87243D96D60045EDFD /* NDTextField.m */; };
+		9F6788742491FF080012DEF6 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6788732491FF080012DEF6 /* Reachability.swift */; };
+		9F67887624921A830012DEF6 /* NonCommercialLeakDetectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F67887524921A830012DEF6 /* NonCommercialLeakDetectionVC.swift */; };
+		9F67887924925E290012DEF6 /* ActiveSubscriptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F67887824925E290012DEF6 /* ActiveSubscriptionVC.swift */; };
+		9F67887B249272730012DEF6 /* PaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F67887A249272730012DEF6 /* PaymentVC.swift */; };
+		9F72B70224484A2F0039AC2A /* UploadCollectionVw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F72B70124484A2F0039AC2A /* UploadCollectionVw.swift */; };
+		9F739480244F2CF2002F455F /* PlumberLeak_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F73947F244F2CF2002F455F /* PlumberLeak_iPad.storyboard */; };
+		9F75C410248DFDBF0029C550 /* PlumberPhoneTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F75C40F248DFDBF0029C550 /* PlumberPhoneTableCell.swift */; };
+		9F75C412248E00A90029C550 /* CommercialTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F75C411248E00A90029C550 /* CommercialTableCell.swift */; };
+		9F7898C824AB9BAA0061EDB6 /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7898C724AB9BAA0061EDB6 /* DatePickerDialog.swift */; };
+		9F796FAB244DD5C000D55EC1 /* PoolDetection_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F796FAA244DD5C000D55EC1 /* PoolDetection_iPad.storyboard */; };
+		9F796FAD244DD5D100D55EC1 /* InspectionPool_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F796FAC244DD5D100D55EC1 /* InspectionPool_iPad.storyboard */; };
+		9F796FAF244DD5F500D55EC1 /* Home_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F796FAE244DD5F500D55EC1 /* Home_iPad.storyboard */; };
+		9F796FB6244DD71400D55EC1 /* PlumbingStatistic2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F796FB4244DD71400D55EC1 /* PlumbingStatistic2VC.swift */; };
+		9F796FBC244DD75D00D55EC1 /* PlumbingStatisticVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F796FBA244DD75D00D55EC1 /* PlumbingStatisticVC.swift */; };
+		9F79DF86249C939200F92693 /* CardViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79DF85249C939100F92693 /* CardViewVC.swift */; };
+		9F79DF88249C955F00F92693 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79DF87249C955F00F92693 /* TextField.swift */; };
+		9F8B03732452C8BB00EE3328 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B03722452C8BB00EE3328 /* ApiManager.swift */; };
+		9F8B03772452CA5C00EE3328 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B03762452CA5C00EE3328 /* Constant.swift */; };
+		9F8B03792452CA7100EE3328 /* ResetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B03782452CA7100EE3328 /* ResetPasswordVC.swift */; };
+		9F8B037B2452D1AC00EE3328 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B037A2452D1AC00EE3328 /* Extension.swift */; };
+		9F9E49042498BDF900F775CF /* ReportListTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9E49032498BDF900F775CF /* ReportListTableCell.swift */; };
+		9FB3FABE2480F0D300C80AA1 /* InspectionPool.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB3FABD2480F0D300C80AA1 /* InspectionPool.storyboard */; };
+		9FB57FB4246AAD5C004D9CD1 /* InspectHandrailsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FA2246AAD5A004D9CD1 /* InspectHandrailsTableCell.swift */; };
+		9FB57FB5246AAD5C004D9CD1 /* InspectWaterFeatureTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FA3246AAD5A004D9CD1 /* InspectWaterFeatureTableCell.swift */; };
+		9FB57FB6246AAD5C004D9CD1 /* InspectLightTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FA4246AAD5A004D9CD1 /* InspectLightTableCell.swift */; };
+		9FB57FB7246AAD5C004D9CD1 /* InspectHeaterTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FA5246AAD5A004D9CD1 /* InspectHeaterTableCell.swift */; };
+		9FB57FB8246AAD5C004D9CD1 /* InspectEdgeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FA6246AAD5A004D9CD1 /* InspectEdgeTableCell.swift */; };
+		9FB57FB9246AAD5C004D9CD1 /* InspectDeckTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FA7246AAD5A004D9CD1 /* InspectDeckTableCell.swift */; };
+		9FB57FBA246AAD5C004D9CD1 /* InspectPortableSpaTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FA8246AAD5A004D9CD1 /* InspectPortableSpaTableCell.swift */; };
+		9FB57FBB246AAD5C004D9CD1 /* InspectSolarTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FA9246AAD5B004D9CD1 /* InspectSolarTableCell.swift */; };
+		9FB57FBC246AAD5C004D9CD1 /* InspectValvesTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FAA246AAD5B004D9CD1 /* InspectValvesTableCell.swift */; };
+		9FB57FBD246AAD5C004D9CD1 /* InspectSaltSystemTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FAB246AAD5B004D9CD1 /* InspectSaltSystemTableCell.swift */; };
+		9FB57FBE246AAD5C004D9CD1 /* InspectAutofillTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FAC246AAD5B004D9CD1 /* InspectAutofillTableCell.swift */; };
+		9FB57FBF246AAD5C004D9CD1 /* InspectOtherPumpTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FAD246AAD5B004D9CD1 /* InspectOtherPumpTableCell.swift */; };
+		9FB57FC0246AAD5C004D9CD1 /* InspectFencingTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FAE246AAD5B004D9CD1 /* InspectFencingTableCell.swift */; };
+		9FB57FC1246AAD5C004D9CD1 /* InspectClockTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FAF246AAD5B004D9CD1 /* InspectClockTableCell.swift */; };
+		9FB57FC2246AAD5C004D9CD1 /* InspectSelfCleaningTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FB0246AAD5C004D9CD1 /* InspectSelfCleaningTableCell.swift */; };
+		9FB57FC3246AAD5C004D9CD1 /* InspectSwimJetsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FB1246AAD5C004D9CD1 /* InspectSwimJetsTableCell.swift */; };
+		9FB57FC4246AAD5C004D9CD1 /* InspectPoolPumpTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FB2246AAD5C004D9CD1 /* InspectPoolPumpTableCell.swift */; };
+		9FB57FC5246AAD5C004D9CD1 /* InspectSideSuctionTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FB3246AAD5C004D9CD1 /* InspectSideSuctionTableCell.swift */; };
+		9FB57FD9246AADD5004D9CD1 /* InspectDeckVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FC6246AADD2004D9CD1 /* InspectDeckVC.swift */; };
+		9FB57FDB246AADD5004D9CD1 /* InspectPortableSpaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FC8246AADD3004D9CD1 /* InspectPortableSpaVC.swift */; };
+		9FB57FDC246AADD5004D9CD1 /* InspectAutofillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FC9246AADD3004D9CD1 /* InspectAutofillVC.swift */; };
+		9FB57FDD246AADD5004D9CD1 /* InspectSwimJetSystemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FCA246AADD3004D9CD1 /* InspectSwimJetSystemVC.swift */; };
+		9FB57FDE246AADD5004D9CD1 /* InspectWaterFeatureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FCB246AADD3004D9CD1 /* InspectWaterFeatureVC.swift */; };
+		9FB57FDF246AADD5004D9CD1 /* InspectClockVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FCC246AADD3004D9CD1 /* InspectClockVC.swift */; };
+		9FB57FE0246AADD5004D9CD1 /* InspectSolarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FCD246AADD3004D9CD1 /* InspectSolarVC.swift */; };
+		9FB57FE1246AADD5004D9CD1 /* InspectFencingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FCE246AADD4004D9CD1 /* InspectFencingVC.swift */; };
+		9FB57FE2246AADD5004D9CD1 /* InspectValvesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FCF246AADD4004D9CD1 /* InspectValvesVC.swift */; };
+		9FB57FE3246AADD5004D9CD1 /* InspectSaltSystemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FD0246AADD4004D9CD1 /* InspectSaltSystemVC.swift */; };
+		9FB57FE4246AADD5004D9CD1 /* InspectHandrailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FD1246AADD4004D9CD1 /* InspectHandrailsVC.swift */; };
+		9FB57FE5246AADD5004D9CD1 /* InspectOtherPumpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FD2246AADD4004D9CD1 /* InspectOtherPumpVC.swift */; };
+		9FB57FE6246AADD5004D9CD1 /* InspectSideSuctionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FD3246AADD4004D9CD1 /* InspectSideSuctionVC.swift */; };
+		9FB57FE7246AADD5004D9CD1 /* InspectLightVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FD4246AADD4004D9CD1 /* InspectLightVC.swift */; };
+		9FB57FE8246AADD5004D9CD1 /* InspectFittingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FD5246AADD5004D9CD1 /* InspectFittingsVC.swift */; };
+		9FB57FE9246AADD5004D9CD1 /* InspectPoolPumpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FD6246AADD5004D9CD1 /* InspectPoolPumpVC.swift */; };
+		9FB57FEA246AADD5004D9CD1 /* InspectSelfCleaningVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FD7246AADD5004D9CD1 /* InspectSelfCleaningVC.swift */; };
+		9FB57FEB246AADD5004D9CD1 /* InspectEdgeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB57FD8246AADD5004D9CD1 /* InspectEdgeVC.swift */; };
+		9FCE3FCB24458D630062867D /* InspectPoolContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCE3FCA24458D630062867D /* InspectPoolContactVC.swift */; };
+		9FCE3FCF2445C3360062867D /* InspectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCE3FCE2445C3360062867D /* InspectionVC.swift */; };
+		9FDF9E4F243DF0840021DEF8 /* QuestionnaireForm2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDF9E4E243DF0840021DEF8 /* QuestionnaireForm2VC.swift */; };
+		9FE88368245AF20E000811AE /* LeaktronicsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE88367245AF20E000811AE /* LeaktronicsTableCell.swift */; };
+		9FFC88ED248E430E000AFBF7 /* EditAccountSettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFC88EC248E430E000AFBF7 /* EditAccountSettingsVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03B88D0B543833DBF212250C /* Pods-Leaktronics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leaktronics.debug.xcconfig"; path = "Target Support Files/Pods-Leaktronics/Pods-Leaktronics.debug.xcconfig"; sourceTree = "<group>"; };
+		1DE9EC85CE5AF03F530ADD54 /* Pods_Leaktronics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Leaktronics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		515C392124B485160079794B /* Pool_8s+.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pool_8s+.png"; sourceTree = "<group>"; };
+		515C392224B485160079794B /* Plumber_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Plumber_11.png; sourceTree = "<group>"; };
+		515C392324B485160079794B /* Inspection_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Inspection_8.png; sourceTree = "<group>"; };
+		515C392424B485160079794B /* Pool_SE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pool_SE.png; sourceTree = "<group>"; };
+		515C392524B485160079794B /* Inspection_11Max.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Inspection_11Max.png; sourceTree = "<group>"; };
+		515C392624B485170079794B /* Pool_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pool_11.png; sourceTree = "<group>"; };
+		515C392724B485170079794B /* Pool_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pool_8.png; sourceTree = "<group>"; };
+		515C392824B485170079794B /* Inspection_SE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Inspection_SE.png; sourceTree = "<group>"; };
+		515C392924B485170079794B /* Plumber_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Plumber_8.png; sourceTree = "<group>"; };
+		515C392A24B485170079794B /* Pool_11Max.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pool_11Max.png; sourceTree = "<group>"; };
+		515C392B24B485170079794B /* Inspection_8s+.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Inspection_8s+.png"; sourceTree = "<group>"; };
+		515C392C24B485170079794B /* Plumber_8s+.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Plumber_8s+.png"; sourceTree = "<group>"; };
+		515C392D24B485170079794B /* Plumber_SE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Plumber_SE.png; sourceTree = "<group>"; };
+		515C392E24B485170079794B /* Inspection_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Inspection_11.png; sourceTree = "<group>"; };
+		515C392F24B485170079794B /* Plumber_11Max.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Plumber_11Max.png; sourceTree = "<group>"; };
+		515C393F24B485270079794B /* leaktronics-splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leaktronics-splash.png"; sourceTree = "<group>"; };
+		672362D6247EF2BF004804F8 /* InspectPlumbingStatistic2VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectPlumbingStatistic2VC.swift; sourceTree = "<group>"; };
+		672362D7247EF2C0004804F8 /* InspectPlumbingStatisticVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectPlumbingStatisticVC.swift; sourceTree = "<group>"; };
+		672362D8247EF2C2004804F8 /* InspectVisualLeakVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectVisualLeakVC.swift; sourceTree = "<group>"; };
+		672362DC247EF2E2004804F8 /* InspectVisualLeakTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectVisualLeakTableCell.swift; sourceTree = "<group>"; };
+		6744C42824B7227C00819403 /* AccountSettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSettingsVC.swift; sourceTree = "<group>"; };
+		6763BEF124C14637008B54F3 /* Plumber1_CoreData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Plumber1_CoreData+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		6763BEF224C14637008B54F3 /* Plumber1_CoreData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Plumber1_CoreData+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		6763BEF324C14637008B54F3 /* Plumber2_CoreData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Plumber2_CoreData+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		6763BEF424C14637008B54F3 /* Plumber2_CoreData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Plumber2_CoreData+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		6763BEF524C14637008B54F3 /* Plumber3_CoreData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Plumber3_CoreData+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		6763BEF624C14637008B54F3 /* Plumber3_CoreData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Plumber3_CoreData+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		6764CF3724BF2CEE009059D6 /* PoolDetectVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoolDetectVC.swift; sourceTree = "<group>"; };
+		676574E724BD99AE00A3FDF8 /* Pool4_CoreData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pool4_CoreData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		676574E824BD99AE00A3FDF8 /* Pool4_CoreData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pool4_CoreData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		676574E924BD99AE00A3FDF8 /* Pool6_CoreData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pool6_CoreData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		676574EA24BD99AE00A3FDF8 /* Pool6_CoreData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pool6_CoreData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		676574EB24BD99AE00A3FDF8 /* Pool3_CoreData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pool3_CoreData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		676574EC24BD99AE00A3FDF8 /* Pool3_CoreData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pool3_CoreData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		676574ED24BD99AE00A3FDF8 /* Pool1_CoreData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pool1_CoreData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		676574EE24BD99AE00A3FDF8 /* Pool1_CoreData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pool1_CoreData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		676574EF24BD99AE00A3FDF8 /* Pool5_CoreData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pool5_CoreData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		676574F024BD99AE00A3FDF8 /* Pool5_CoreData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pool5_CoreData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		676574F124BD99AE00A3FDF8 /* Pool2_CoreData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pool2_CoreData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		676574F224BD99AE00A3FDF8 /* Pool2_CoreData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pool2_CoreData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6766D713248FD4180098C33D /* HelpSupportVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpSupportVC.swift; sourceTree = "<group>"; };
+		6766D715248FD4190098C33D /* SubscriptionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionVC.swift; sourceTree = "<group>"; };
+		676EFACE24C1E98700AB4610 /* ShowPDFVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPDFVC.swift; sourceTree = "<group>"; };
+		678102C6245540250022610D /* PlumberPhoneQuestionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlumberPhoneQuestionVC.swift; sourceTree = "<group>"; };
+		6782627E245588140006813A /* CommercialLeakDetectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommercialLeakDetectionVC.swift; sourceTree = "<group>"; };
+		67905635243B120300E24E4A /* LeakTronics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeakTronics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67905638243B120300E24E4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6790563A243B120300E24E4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6790563C243B120300E24E4A /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		6790563F243B120300E24E4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		67905642243B120300E24E4A /* Leaktronics.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Leaktronics.xcdatamodel; sourceTree = "<group>"; };
+		67905644243B120500E24E4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67905647243B120500E24E4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67905649243B120500E24E4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67905653243B147600E24E4A /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		67905654243B147600E24E4A /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		67905655243B147600E24E4A /* METADATA.pb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = METADATA.pb; sourceTree = "<group>"; };
+		67905656243B147600E24E4A /* COPYRIGHT.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYRIGHT.txt; sourceTree = "<group>"; };
+		67905657243B147600E24E4A /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		67905658243B147600E24E4A /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		67905659243B147600E24E4A /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		6790565A243B147600E24E4A /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		6790565B243B147600E24E4A /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		6790565C243B147600E24E4A /* DESCRIPTION.en_us.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = DESCRIPTION.en_us.html; sourceTree = "<group>"; };
+		6790565D243B147600E24E4A /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		6790565E243B147600E24E4A /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		6790565F243B147600E24E4A /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		67905660243B147600E24E4A /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		67905661243B147600E24E4A /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		67905662243B147600E24E4A /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		67905675243B30B100E24E4A /* CustomOutlinedTxtField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOutlinedTxtField.swift; sourceTree = "<group>"; };
+		67905677243B484100E24E4A /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		679C6F3F24B82EF50010A24F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		679F8EF2243E31BE0052E64E /* VisualLeakVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualLeakVC.swift; sourceTree = "<group>"; };
+		67D42A2F248065370057764B /* InspectCompleteSummaryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectCompleteSummaryVC.swift; sourceTree = "<group>"; };
+		67D42A3124806A770057764B /* InspectSummaryTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectSummaryTableCell.swift; sourceTree = "<group>"; };
+		67DDB82E243C290D0009E880 /* Home_iPhone.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home_iPhone.storyboard; sourceTree = "<group>"; };
+		67DDB830243C29280009E880 /* InspectionListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectionListVC.swift; sourceTree = "<group>"; };
+		67DDB83E243C39080009E880 /* InspectionListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectionListCollectionViewCell.swift; sourceTree = "<group>"; };
+		67F1125E2472842000057B29 /* InspectionTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectionTableCell.swift; sourceTree = "<group>"; };
+		67F1125F2472842100057B29 /* InspectFittingsTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectFittingsTableCell.swift; sourceTree = "<group>"; };
+		67F5BC782474C00900CCC0C4 /* InspectQuestionnaireFormVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectQuestionnaireFormVC.swift; sourceTree = "<group>"; };
+		67FC7BCF243C75B1006BD893 /* PlumberLeak.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlumberLeak.storyboard; sourceTree = "<group>"; };
+		67FC7BD2243C781A006BD893 /* PlumberContactFormVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlumberContactFormVC.swift; sourceTree = "<group>"; };
+		67FC7BE4243CA908006BD893 /* PoolDetectionContactVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoolDetectionContactVC.swift; sourceTree = "<group>"; };
+		67FC7BE5243CA908006BD893 /* PoolDetection.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PoolDetection.storyboard; sourceTree = "<group>"; };
+		78F16B5424C97483000E620E /* HelpCenterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpCenterVC.swift; sourceTree = "<group>"; };
+		78F16B5624C9749E000E620E /* EmailTechnicalSupportVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTechnicalSupportVC.swift; sourceTree = "<group>"; };
+		78F16B5824C993A4000E620E /* HelpCenterTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpCenterTableCell.swift; sourceTree = "<group>"; };
+		9F05639B2449C22F00090C67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		9F0EA0EE249B930100695F03 /* HelpSupportTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpSupportTableCell.swift; sourceTree = "<group>"; };
+		9F19E9F7243CB1C700F6FA44 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		9F19E9F8243CB1C700F6FA44 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		9F19E9F9243CB1C800F6FA44 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		9F19E9FA243CB1C800F6FA44 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		9F19E9FB243CB1C800F6FA44 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		9F1EC3852488C752005D748D /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
+		9F1EC3872488CF7F005D748D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		9F1EC3892488DC24005D748D /* ReportListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportListVC.swift; sourceTree = "<group>"; };
+		9F486B72243D90C60045EDFD /* QuestionnaireForm1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireForm1VC.swift; sourceTree = "<group>"; };
+		9F486B74243D96D30045EDFD /* Leaktronics-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Leaktronics-Bridging-Header.h"; sourceTree = "<group>"; };
+		9F486B75243D96D40045EDFD /* NDButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDButton.m; sourceTree = "<group>"; };
+		9F486B76243D96D40045EDFD /* UIViewControllerX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerX.swift; sourceTree = "<group>"; };
+		9F486B77243D96D40045EDFD /* UIVisualEffectViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIVisualEffectViewX.swift; sourceTree = "<group>"; };
+		9F486B78243D96D40045EDFD /* NDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDView.m; sourceTree = "<group>"; };
+		9F486B79243D96D40045EDFD /* UIViewXRadialGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewXRadialGradient.swift; sourceTree = "<group>"; };
+		9F486B7A243D96D40045EDFD /* UIViewAnchorPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewAnchorPoint.swift; sourceTree = "<group>"; };
+		9F486B7B243D96D40045EDFD /* UISliderX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISliderX.swift; sourceTree = "<group>"; };
+		9F486B7C243D96D50045EDFD /* UIImageViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewX.swift; sourceTree = "<group>"; };
+		9F486B7D243D96D50045EDFD /* NDTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDTextField.h; sourceTree = "<group>"; };
+		9F486B7E243D96D50045EDFD /* NDDropDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDDropDown.h; sourceTree = "<group>"; };
+		9F486B7F243D96D50045EDFD /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		9F486B80243D96D50045EDFD /* SEE AND SEND APP-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SEE AND SEND APP-Bridging-Header.h"; sourceTree = "<group>"; };
+		9F486B81243D96D50045EDFD /* UILabelX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelX.swift; sourceTree = "<group>"; };
+		9F486B82243D96D50045EDFD /* NDButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDButton.h; sourceTree = "<group>"; };
+		9F486B83243D96D50045EDFD /* UITextFieldX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldX.swift; sourceTree = "<group>"; };
+		9F486B84243D96D50045EDFD /* NDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDView.h; sourceTree = "<group>"; };
+		9F486B85243D96D60045EDFD /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+		9F486B86243D96D60045EDFD /* NDDropDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDDropDown.m; sourceTree = "<group>"; };
+		9F486B87243D96D60045EDFD /* NDTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDTextField.m; sourceTree = "<group>"; };
+		9F67886D2491FCEF0012DEF6 /* PoolDetection_CoreData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PoolDetection_CoreData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9F67886E2491FCEF0012DEF6 /* PoolDetection_CoreData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PoolDetection_CoreData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9F67886F2491FCEF0012DEF6 /* PlumberLeak_CoreData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlumberLeak_CoreData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9F6788702491FCEF0012DEF6 /* InspectionPool_CoreData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InspectionPool_CoreData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9F6788712491FCEF0012DEF6 /* PlumberLeak_CoreData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlumberLeak_CoreData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9F6788722491FCEF0012DEF6 /* InspectionPool_CoreData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InspectionPool_CoreData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9F6788732491FF080012DEF6 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		9F67887524921A830012DEF6 /* NonCommercialLeakDetectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonCommercialLeakDetectionVC.swift; sourceTree = "<group>"; };
+		9F67887824925E290012DEF6 /* ActiveSubscriptionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveSubscriptionVC.swift; sourceTree = "<group>"; };
+		9F67887A249272730012DEF6 /* PaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentVC.swift; sourceTree = "<group>"; };
+		9F72B70124484A2F0039AC2A /* UploadCollectionVw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadCollectionVw.swift; sourceTree = "<group>"; };
+		9F73947F244F2CF2002F455F /* PlumberLeak_iPad.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlumberLeak_iPad.storyboard; sourceTree = "<group>"; };
+		9F75C40F248DFDBF0029C550 /* PlumberPhoneTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlumberPhoneTableCell.swift; sourceTree = "<group>"; };
+		9F75C411248E00A90029C550 /* CommercialTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommercialTableCell.swift; sourceTree = "<group>"; };
+		9F7898C724AB9BAA0061EDB6 /* DatePickerDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerDialog.swift; sourceTree = "<group>"; };
+		9F796FAA244DD5C000D55EC1 /* PoolDetection_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PoolDetection_iPad.storyboard; sourceTree = "<group>"; };
+		9F796FAC244DD5D100D55EC1 /* InspectionPool_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InspectionPool_iPad.storyboard; sourceTree = "<group>"; };
+		9F796FAE244DD5F500D55EC1 /* Home_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home_iPad.storyboard; sourceTree = "<group>"; };
+		9F796FB4244DD71400D55EC1 /* PlumbingStatistic2VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlumbingStatistic2VC.swift; sourceTree = "<group>"; };
+		9F796FBA244DD75D00D55EC1 /* PlumbingStatisticVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlumbingStatisticVC.swift; sourceTree = "<group>"; };
+		9F79DF85249C939100F92693 /* CardViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardViewVC.swift; sourceTree = "<group>"; };
+		9F79DF87249C955F00F92693 /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		9F8B03722452C8BB00EE3328 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		9F8B03762452CA5C00EE3328 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		9F8B03782452CA7100EE3328 /* ResetPasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordVC.swift; sourceTree = "<group>"; };
+		9F8B037A2452D1AC00EE3328 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		9F9E49032498BDF900F775CF /* ReportListTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportListTableCell.swift; sourceTree = "<group>"; };
+		9FB3FABD2480F0D300C80AA1 /* InspectionPool.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InspectionPool.storyboard; sourceTree = "<group>"; };
+		9FB57FA2246AAD5A004D9CD1 /* InspectHandrailsTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectHandrailsTableCell.swift; sourceTree = "<group>"; };
+		9FB57FA3246AAD5A004D9CD1 /* InspectWaterFeatureTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectWaterFeatureTableCell.swift; sourceTree = "<group>"; };
+		9FB57FA4246AAD5A004D9CD1 /* InspectLightTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectLightTableCell.swift; sourceTree = "<group>"; };
+		9FB57FA5246AAD5A004D9CD1 /* InspectHeaterTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectHeaterTableCell.swift; sourceTree = "<group>"; };
+		9FB57FA6246AAD5A004D9CD1 /* InspectEdgeTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectEdgeTableCell.swift; sourceTree = "<group>"; };
+		9FB57FA7246AAD5A004D9CD1 /* InspectDeckTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectDeckTableCell.swift; sourceTree = "<group>"; };
+		9FB57FA8246AAD5A004D9CD1 /* InspectPortableSpaTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectPortableSpaTableCell.swift; sourceTree = "<group>"; };
+		9FB57FA9246AAD5B004D9CD1 /* InspectSolarTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectSolarTableCell.swift; sourceTree = "<group>"; };
+		9FB57FAA246AAD5B004D9CD1 /* InspectValvesTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectValvesTableCell.swift; sourceTree = "<group>"; };
+		9FB57FAB246AAD5B004D9CD1 /* InspectSaltSystemTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectSaltSystemTableCell.swift; sourceTree = "<group>"; };
+		9FB57FAC246AAD5B004D9CD1 /* InspectAutofillTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectAutofillTableCell.swift; sourceTree = "<group>"; };
+		9FB57FAD246AAD5B004D9CD1 /* InspectOtherPumpTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectOtherPumpTableCell.swift; sourceTree = "<group>"; };
+		9FB57FAE246AAD5B004D9CD1 /* InspectFencingTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectFencingTableCell.swift; sourceTree = "<group>"; };
+		9FB57FAF246AAD5B004D9CD1 /* InspectClockTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectClockTableCell.swift; sourceTree = "<group>"; };
+		9FB57FB0246AAD5C004D9CD1 /* InspectSelfCleaningTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectSelfCleaningTableCell.swift; sourceTree = "<group>"; };
+		9FB57FB1246AAD5C004D9CD1 /* InspectSwimJetsTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectSwimJetsTableCell.swift; sourceTree = "<group>"; };
+		9FB57FB2246AAD5C004D9CD1 /* InspectPoolPumpTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectPoolPumpTableCell.swift; sourceTree = "<group>"; };
+		9FB57FB3246AAD5C004D9CD1 /* InspectSideSuctionTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectSideSuctionTableCell.swift; sourceTree = "<group>"; };
+		9FB57FC6246AADD2004D9CD1 /* InspectDeckVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectDeckVC.swift; sourceTree = "<group>"; };
+		9FB57FC8246AADD3004D9CD1 /* InspectPortableSpaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectPortableSpaVC.swift; sourceTree = "<group>"; };
+		9FB57FC9246AADD3004D9CD1 /* InspectAutofillVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectAutofillVC.swift; sourceTree = "<group>"; };
+		9FB57FCA246AADD3004D9CD1 /* InspectSwimJetSystemVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectSwimJetSystemVC.swift; sourceTree = "<group>"; };
+		9FB57FCB246AADD3004D9CD1 /* InspectWaterFeatureVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectWaterFeatureVC.swift; sourceTree = "<group>"; };
+		9FB57FCC246AADD3004D9CD1 /* InspectClockVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectClockVC.swift; sourceTree = "<group>"; };
+		9FB57FCD246AADD3004D9CD1 /* InspectSolarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectSolarVC.swift; sourceTree = "<group>"; };
+		9FB57FCE246AADD4004D9CD1 /* InspectFencingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectFencingVC.swift; sourceTree = "<group>"; };
+		9FB57FCF246AADD4004D9CD1 /* InspectValvesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectValvesVC.swift; sourceTree = "<group>"; };
+		9FB57FD0246AADD4004D9CD1 /* InspectSaltSystemVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectSaltSystemVC.swift; sourceTree = "<group>"; };
+		9FB57FD1246AADD4004D9CD1 /* InspectHandrailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectHandrailsVC.swift; sourceTree = "<group>"; };
+		9FB57FD2246AADD4004D9CD1 /* InspectOtherPumpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectOtherPumpVC.swift; sourceTree = "<group>"; };
+		9FB57FD3246AADD4004D9CD1 /* InspectSideSuctionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectSideSuctionVC.swift; sourceTree = "<group>"; };
+		9FB57FD4246AADD4004D9CD1 /* InspectLightVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectLightVC.swift; sourceTree = "<group>"; };
+		9FB57FD5246AADD5004D9CD1 /* InspectFittingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectFittingsVC.swift; sourceTree = "<group>"; };
+		9FB57FD6246AADD5004D9CD1 /* InspectPoolPumpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectPoolPumpVC.swift; sourceTree = "<group>"; };
+		9FB57FD7246AADD5004D9CD1 /* InspectSelfCleaningVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectSelfCleaningVC.swift; sourceTree = "<group>"; };
+		9FB57FD8246AADD5004D9CD1 /* InspectEdgeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectEdgeVC.swift; sourceTree = "<group>"; };
+		9FCE3FCA24458D630062867D /* InspectPoolContactVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectPoolContactVC.swift; sourceTree = "<group>"; };
+		9FCE3FCE2445C3360062867D /* InspectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectionVC.swift; sourceTree = "<group>"; };
+		9FDF9E4E243DF0840021DEF8 /* QuestionnaireForm2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionnaireForm2VC.swift; sourceTree = "<group>"; };
+		9FE88367245AF20E000811AE /* LeaktronicsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaktronicsTableCell.swift; sourceTree = "<group>"; };
+		9FFC88EC248E430E000AFBF7 /* EditAccountSettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAccountSettingsVC.swift; sourceTree = "<group>"; };
+		BF511D875C0AD88A7D56E008 /* Pods-Leaktronics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Leaktronics.release.xcconfig"; path = "Target Support Files/Pods-Leaktronics/Pods-Leaktronics.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67905632243B120300E24E4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C7A1DC1B615182C2B206F7B /* Pods_Leaktronics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5169BD8424B59D5B002AF043 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				9F1EC3852488C752005D748D /* SideMenuVC.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		6744C42724B721CB00819403 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				6744C42824B7227C00819403 /* AccountSettingsVC.swift */,
+				9FFC88EC248E430E000AFBF7 /* EditAccountSettingsVC.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		6765747F24BD951400A3FDF8 /* CustomCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				9F72B70124484A2F0039AC2A /* UploadCollectionVw.swift */,
+			);
+			path = CustomCollectionView;
+			sourceTree = "<group>";
+		};
+		6790562C243B120300E24E4A = {
+			isa = PBXGroup;
+			children = (
+				67905637243B120300E24E4A /* Leaktronics */,
+				67905636243B120300E24E4A /* Products */,
+				7D3168FD54C30B6887D60B6D /* Pods */,
+				DE418EB147C4EBA9E48B6BF4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		67905636243B120300E24E4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67905635243B120300E24E4A /* LeakTronics.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67905637243B120300E24E4A /* Leaktronics */ = {
+			isa = PBXGroup;
+			children = (
+				67905638243B120300E24E4A /* AppDelegate.swift */,
+				6790563A243B120300E24E4A /* SceneDelegate.swift */,
+				9F1EC3872488CF7F005D748D /* BaseViewController.swift */,
+				9F6788602491F6A20012DEF6 /* CoreDataFiles */,
+				9F8B03712452C89D00EE3328 /* Configuration */,
+				6765747F24BD951400A3FDF8 /* CustomCollectionView */,
+				67DDB82D243C28A90009E880 /* Application */,
+				67DDB82C243C27860009E880 /* Main */,
+				6790564F243B132D00E24E4A /* Resources */,
+				6790563E243B120300E24E4A /* Main_iPhone.storyboard */,
+				9F05639A2449C22E00090C67 /* Main_iPad.storyboard */,
+				67905644243B120500E24E4A /* Assets.xcassets */,
+				67905646243B120500E24E4A /* LaunchScreen.storyboard */,
+				67905649243B120500E24E4A /* Info.plist */,
+				67905641243B120300E24E4A /* Leaktronics.xcdatamodeld */,
+			);
+			path = Leaktronics;
+			sourceTree = "<group>";
+		};
+		6790564F243B132D00E24E4A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				679C6F3F24B82EF50010A24F /* GoogleService-Info.plist */,
+				9F486B96243D96E00045EDFD /* DesignableX */,
+				9F7898C224AB99980061EDB6 /* Date */,
+				67905651243B134400E24E4A /* Images */,
+				67905650243B133700E24E4A /* Fonts */,
+				9F486B74243D96D30045EDFD /* Leaktronics-Bridging-Header.h */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		67905650243B133700E24E4A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9F19E9EC243CB17B00F6FA44 /* Poppins */,
+				67905652243B147600E24E4A /* roboto */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		67905651243B134400E24E4A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				515C392D24B485170079794B /* Plumber_SE.png */,
+				515C392424B485160079794B /* Pool_SE.png */,
+				515C392824B485170079794B /* Inspection_SE.png */,
+				515C392924B485170079794B /* Plumber_8.png */,
+				515C392724B485170079794B /* Pool_8.png */,
+				515C392324B485160079794B /* Inspection_8.png */,
+				515C392C24B485170079794B /* Plumber_8s+.png */,
+				515C392124B485160079794B /* Pool_8s+.png */,
+				515C392B24B485170079794B /* Inspection_8s+.png */,
+				515C392224B485160079794B /* Plumber_11.png */,
+				515C392624B485170079794B /* Pool_11.png */,
+				515C392E24B485170079794B /* Inspection_11.png */,
+				515C392F24B485170079794B /* Plumber_11Max.png */,
+				515C392A24B485170079794B /* Pool_11Max.png */,
+				515C392524B485160079794B /* Inspection_11Max.png */,
+				515C393F24B485270079794B /* leaktronics-splash.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		67905652243B147600E24E4A /* roboto */ = {
+			isa = PBXGroup;
+			children = (
+				67905653243B147600E24E4A /* Roboto-Medium.ttf */,
+				67905654243B147600E24E4A /* Roboto-Light.ttf */,
+				67905655243B147600E24E4A /* METADATA.pb */,
+				67905656243B147600E24E4A /* COPYRIGHT.txt */,
+				67905657243B147600E24E4A /* Roboto-Regular.ttf */,
+				67905658243B147600E24E4A /* Roboto-MediumItalic.ttf */,
+				67905659243B147600E24E4A /* Roboto-ThinItalic.ttf */,
+				6790565A243B147600E24E4A /* Roboto-BoldItalic.ttf */,
+				6790565B243B147600E24E4A /* Roboto-LightItalic.ttf */,
+				6790565C243B147600E24E4A /* DESCRIPTION.en_us.html */,
+				6790565D243B147600E24E4A /* Roboto-Italic.ttf */,
+				6790565E243B147600E24E4A /* LICENSE.txt */,
+				6790565F243B147600E24E4A /* Roboto-BlackItalic.ttf */,
+				67905660243B147600E24E4A /* Roboto-Bold.ttf */,
+				67905661243B147600E24E4A /* Roboto-Thin.ttf */,
+				67905662243B147600E24E4A /* Roboto-Black.ttf */,
+			);
+			path = roboto;
+			sourceTree = "<group>";
+		};
+		67DDB82C243C27860009E880 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				6790563C243B120300E24E4A /* LoginVC.swift */,
+				67905677243B484100E24E4A /* RegistrationViewController.swift */,
+				9F8B03782452CA7100EE3328 /* ResetPasswordVC.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		67DDB82D243C28A90009E880 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				67DDB82E243C290D0009E880 /* Home_iPhone.storyboard */,
+				9F796FAE244DD5F500D55EC1 /* Home_iPad.storyboard */,
+				67DDB830243C29280009E880 /* InspectionListVC.swift */,
+				67DDB83E243C39080009E880 /* InspectionListCollectionViewCell.swift */,
+				676EFACE24C1E98700AB4610 /* ShowPDFVC.swift */,
+				5169BD8424B59D5B002AF043 /* SideMenu */,
+				9F67887724925E0B0012DEF6 /* Subscription */,
+				6744C42724B721CB00819403 /* Account */,
+				9F9E49022498BDAB00F775CF /* Report */,
+				9F0EA0ED249B92E000695F03 /* HELP */,
+				9FE88369245AF213000811AE /* UITableViewCell */,
+				67FC7BCE243C7574006BD893 /* PlumberLeak */,
+				67FC7BE3243CA908006BD893 /* PoolDetection */,
+				9FCE3FC724458AC50062867D /* InspectionPool */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		67FC7BCE243C7574006BD893 /* PlumberLeak */ = {
+			isa = PBXGroup;
+			children = (
+				67FC7BD2243C781A006BD893 /* PlumberContactFormVC.swift */,
+				678102C6245540250022610D /* PlumberPhoneQuestionVC.swift */,
+				9F67887524921A830012DEF6 /* NonCommercialLeakDetectionVC.swift */,
+				6782627E245588140006813A /* CommercialLeakDetectionVC.swift */,
+				67FC7BCF243C75B1006BD893 /* PlumberLeak.storyboard */,
+				9F73947F244F2CF2002F455F /* PlumberLeak_iPad.storyboard */,
+			);
+			path = PlumberLeak;
+			sourceTree = "<group>";
+		};
+		67FC7BE3243CA908006BD893 /* PoolDetection */ = {
+			isa = PBXGroup;
+			children = (
+				6764CF3724BF2CEE009059D6 /* PoolDetectVC.swift */,
+				67FC7BE4243CA908006BD893 /* PoolDetectionContactVC.swift */,
+				9F486B72243D90C60045EDFD /* QuestionnaireForm1VC.swift */,
+				9FDF9E4E243DF0840021DEF8 /* QuestionnaireForm2VC.swift */,
+				679F8EF2243E31BE0052E64E /* VisualLeakVC.swift */,
+				9F796FBA244DD75D00D55EC1 /* PlumbingStatisticVC.swift */,
+				9F796FB4244DD71400D55EC1 /* PlumbingStatistic2VC.swift */,
+				67FC7BE5243CA908006BD893 /* PoolDetection.storyboard */,
+				9F796FAA244DD5C000D55EC1 /* PoolDetection_iPad.storyboard */,
+			);
+			path = PoolDetection;
+			sourceTree = "<group>";
+		};
+		7D3168FD54C30B6887D60B6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03B88D0B543833DBF212250C /* Pods-Leaktronics.debug.xcconfig */,
+				BF511D875C0AD88A7D56E008 /* Pods-Leaktronics.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9F0EA0ED249B92E000695F03 /* HELP */ = {
+			isa = PBXGroup;
+			children = (
+				6766D713248FD4180098C33D /* HelpSupportVC.swift */,
+				9F0EA0EE249B930100695F03 /* HelpSupportTableCell.swift */,
+				78F16B5424C97483000E620E /* HelpCenterVC.swift */,
+				78F16B5824C993A4000E620E /* HelpCenterTableCell.swift */,
+				78F16B5624C9749E000E620E /* EmailTechnicalSupportVC.swift */,
+			);
+			path = HELP;
+			sourceTree = "<group>";
+		};
+		9F19E9EC243CB17B00F6FA44 /* Poppins */ = {
+			isa = PBXGroup;
+			children = (
+				9F19E9F9243CB1C800F6FA44 /* Poppins-Bold.ttf */,
+				9F19E9F8243CB1C700F6FA44 /* Poppins-Light.ttf */,
+				9F19E9F7243CB1C700F6FA44 /* Poppins-Medium.ttf */,
+				9F19E9FA243CB1C800F6FA44 /* Poppins-Regular.ttf */,
+				9F19E9FB243CB1C800F6FA44 /* Poppins-SemiBold.ttf */,
+			);
+			path = Poppins;
+			sourceTree = "<group>";
+		};
+		9F1A312124A4D786008F29D3 /* PlumberModule */ = {
+			isa = PBXGroup;
+			children = (
+				9F75C40F248DFDBF0029C550 /* PlumberPhoneTableCell.swift */,
+				9F75C411248E00A90029C550 /* CommercialTableCell.swift */,
+			);
+			path = PlumberModule;
+			sourceTree = "<group>";
+		};
+		9F486B96243D96E00045EDFD /* DesignableX */ = {
+			isa = PBXGroup;
+			children = (
+				9F486B82243D96D50045EDFD /* NDButton.h */,
+				9F486B75243D96D40045EDFD /* NDButton.m */,
+				9F486B7E243D96D50045EDFD /* NDDropDown.h */,
+				9F486B86243D96D60045EDFD /* NDDropDown.m */,
+				9F486B7D243D96D50045EDFD /* NDTextField.h */,
+				9F486B87243D96D60045EDFD /* NDTextField.m */,
+				9F486B84243D96D50045EDFD /* NDView.h */,
+				9F486B78243D96D40045EDFD /* NDView.m */,
+				9F486B80243D96D50045EDFD /* SEE AND SEND APP-Bridging-Header.h */,
+				9F486B85243D96D60045EDFD /* UIButtonX.swift */,
+				9F486B7C243D96D50045EDFD /* UIImageViewX.swift */,
+				9F486B81243D96D50045EDFD /* UILabelX.swift */,
+				9F486B7B243D96D40045EDFD /* UISliderX.swift */,
+				9F486B83243D96D50045EDFD /* UITextFieldX.swift */,
+				9F486B7A243D96D40045EDFD /* UIViewAnchorPoint.swift */,
+				9F486B76243D96D40045EDFD /* UIViewControllerX.swift */,
+				9F486B7F243D96D50045EDFD /* UIViewX.swift */,
+				9F486B79243D96D40045EDFD /* UIViewXRadialGradient.swift */,
+				9F486B77243D96D40045EDFD /* UIVisualEffectViewX.swift */,
+			);
+			path = DesignableX;
+			sourceTree = "<group>";
+		};
+		9F6788602491F6A20012DEF6 /* CoreDataFiles */ = {
+			isa = PBXGroup;
+			children = (
+				6763BEF124C14637008B54F3 /* Plumber1_CoreData+CoreDataClass.swift */,
+				6763BEF224C14637008B54F3 /* Plumber1_CoreData+CoreDataProperties.swift */,
+				6763BEF324C14637008B54F3 /* Plumber2_CoreData+CoreDataClass.swift */,
+				6763BEF424C14637008B54F3 /* Plumber2_CoreData+CoreDataProperties.swift */,
+				6763BEF524C14637008B54F3 /* Plumber3_CoreData+CoreDataClass.swift */,
+				6763BEF624C14637008B54F3 /* Plumber3_CoreData+CoreDataProperties.swift */,
+				676574ED24BD99AE00A3FDF8 /* Pool1_CoreData+CoreDataClass.swift */,
+				676574EE24BD99AE00A3FDF8 /* Pool1_CoreData+CoreDataProperties.swift */,
+				676574F124BD99AE00A3FDF8 /* Pool2_CoreData+CoreDataClass.swift */,
+				676574F224BD99AE00A3FDF8 /* Pool2_CoreData+CoreDataProperties.swift */,
+				676574EB24BD99AE00A3FDF8 /* Pool3_CoreData+CoreDataClass.swift */,
+				676574EC24BD99AE00A3FDF8 /* Pool3_CoreData+CoreDataProperties.swift */,
+				676574E724BD99AE00A3FDF8 /* Pool4_CoreData+CoreDataClass.swift */,
+				676574E824BD99AE00A3FDF8 /* Pool4_CoreData+CoreDataProperties.swift */,
+				676574EF24BD99AE00A3FDF8 /* Pool5_CoreData+CoreDataClass.swift */,
+				676574F024BD99AE00A3FDF8 /* Pool5_CoreData+CoreDataProperties.swift */,
+				676574E924BD99AE00A3FDF8 /* Pool6_CoreData+CoreDataClass.swift */,
+				676574EA24BD99AE00A3FDF8 /* Pool6_CoreData+CoreDataProperties.swift */,
+				9F67886F2491FCEF0012DEF6 /* PlumberLeak_CoreData+CoreDataClass.swift */,
+				9F6788712491FCEF0012DEF6 /* PlumberLeak_CoreData+CoreDataProperties.swift */,
+				9F67886E2491FCEF0012DEF6 /* PoolDetection_CoreData+CoreDataClass.swift */,
+				9F67886D2491FCEF0012DEF6 /* PoolDetection_CoreData+CoreDataProperties.swift */,
+				9F6788702491FCEF0012DEF6 /* InspectionPool_CoreData+CoreDataClass.swift */,
+				9F6788722491FCEF0012DEF6 /* InspectionPool_CoreData+CoreDataProperties.swift */,
+			);
+			path = CoreDataFiles;
+			sourceTree = "<group>";
+		};
+		9F67887724925E0B0012DEF6 /* Subscription */ = {
+			isa = PBXGroup;
+			children = (
+				6766D715248FD4190098C33D /* SubscriptionVC.swift */,
+				9F67887824925E290012DEF6 /* ActiveSubscriptionVC.swift */,
+				9F67887A249272730012DEF6 /* PaymentVC.swift */,
+				9F79DF85249C939100F92693 /* CardViewVC.swift */,
+			);
+			path = Subscription;
+			sourceTree = "<group>";
+		};
+		9F75C40E248DFD730029C550 /* InspectModule */ = {
+			isa = PBXGroup;
+			children = (
+				67F1125E2472842000057B29 /* InspectionTableCell.swift */,
+				67F1125F2472842100057B29 /* InspectFittingsTableCell.swift */,
+				9FB57FA7246AAD5A004D9CD1 /* InspectDeckTableCell.swift */,
+				9FB57FA2246AAD5A004D9CD1 /* InspectHandrailsTableCell.swift */,
+				9FB57FA6246AAD5A004D9CD1 /* InspectEdgeTableCell.swift */,
+				9FB57FA3246AAD5A004D9CD1 /* InspectWaterFeatureTableCell.swift */,
+				9FB57FB3246AAD5C004D9CD1 /* InspectSideSuctionTableCell.swift */,
+				9FB57FAC246AAD5B004D9CD1 /* InspectAutofillTableCell.swift */,
+				9FB57FA8246AAD5A004D9CD1 /* InspectPortableSpaTableCell.swift */,
+				9FB57FA9246AAD5B004D9CD1 /* InspectSolarTableCell.swift */,
+				9FB57FB2246AAD5C004D9CD1 /* InspectPoolPumpTableCell.swift */,
+				9FB57FB1246AAD5C004D9CD1 /* InspectSwimJetsTableCell.swift */,
+				9FB57FB0246AAD5C004D9CD1 /* InspectSelfCleaningTableCell.swift */,
+				9FB57FAD246AAD5B004D9CD1 /* InspectOtherPumpTableCell.swift */,
+				9FB57FAA246AAD5B004D9CD1 /* InspectValvesTableCell.swift */,
+				9FB57FAB246AAD5B004D9CD1 /* InspectSaltSystemTableCell.swift */,
+				9FB57FAF246AAD5B004D9CD1 /* InspectClockTableCell.swift */,
+				9FB57FA5246AAD5A004D9CD1 /* InspectHeaterTableCell.swift */,
+				9FB57FA4246AAD5A004D9CD1 /* InspectLightTableCell.swift */,
+				9FB57FAE246AAD5B004D9CD1 /* InspectFencingTableCell.swift */,
+				672362DC247EF2E2004804F8 /* InspectVisualLeakTableCell.swift */,
+				67D42A3124806A770057764B /* InspectSummaryTableCell.swift */,
+			);
+			path = InspectModule;
+			sourceTree = "<group>";
+		};
+		9F7898C224AB99980061EDB6 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				9F7898C724AB9BAA0061EDB6 /* DatePickerDialog.swift */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
+		9F8B03712452C89D00EE3328 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				9F8B03762452CA5C00EE3328 /* Constant.swift */,
+				9F8B03722452C8BB00EE3328 /* ApiManager.swift */,
+				9F8B037A2452D1AC00EE3328 /* Extension.swift */,
+				67905675243B30B100E24E4A /* CustomOutlinedTxtField.swift */,
+				9F79DF87249C955F00F92693 /* TextField.swift */,
+				9F6788732491FF080012DEF6 /* Reachability.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		9F9E49022498BDAB00F775CF /* Report */ = {
+			isa = PBXGroup;
+			children = (
+				9F1EC3892488DC24005D748D /* ReportListVC.swift */,
+				9F9E49032498BDF900F775CF /* ReportListTableCell.swift */,
+			);
+			path = Report;
+			sourceTree = "<group>";
+		};
+		9FCE3FC724458AC50062867D /* InspectionPool */ = {
+			isa = PBXGroup;
+			children = (
+				9FCE3FCA24458D630062867D /* InspectPoolContactVC.swift */,
+				67F5BC782474C00900CCC0C4 /* InspectQuestionnaireFormVC.swift */,
+				9FCE3FCE2445C3360062867D /* InspectionVC.swift */,
+				9FB57FD5246AADD5004D9CD1 /* InspectFittingsVC.swift */,
+				9FB57FC6246AADD2004D9CD1 /* InspectDeckVC.swift */,
+				9FB57FD1246AADD4004D9CD1 /* InspectHandrailsVC.swift */,
+				9FB57FD8246AADD5004D9CD1 /* InspectEdgeVC.swift */,
+				9FB57FCB246AADD3004D9CD1 /* InspectWaterFeatureVC.swift */,
+				9FB57FD3246AADD4004D9CD1 /* InspectSideSuctionVC.swift */,
+				9FB57FC9246AADD3004D9CD1 /* InspectAutofillVC.swift */,
+				9FB57FC8246AADD3004D9CD1 /* InspectPortableSpaVC.swift */,
+				9FB57FCD246AADD3004D9CD1 /* InspectSolarVC.swift */,
+				9FB57FD6246AADD5004D9CD1 /* InspectPoolPumpVC.swift */,
+				9FB57FCA246AADD3004D9CD1 /* InspectSwimJetSystemVC.swift */,
+				9FB57FD7246AADD5004D9CD1 /* InspectSelfCleaningVC.swift */,
+				9FB57FD2246AADD4004D9CD1 /* InspectOtherPumpVC.swift */,
+				9FB57FCF246AADD4004D9CD1 /* InspectValvesVC.swift */,
+				9FB57FD0246AADD4004D9CD1 /* InspectSaltSystemVC.swift */,
+				9FB57FCC246AADD3004D9CD1 /* InspectClockVC.swift */,
+				9FB57FD4246AADD4004D9CD1 /* InspectLightVC.swift */,
+				9FB57FCE246AADD4004D9CD1 /* InspectFencingVC.swift */,
+				672362D8247EF2C2004804F8 /* InspectVisualLeakVC.swift */,
+				672362D7247EF2C0004804F8 /* InspectPlumbingStatisticVC.swift */,
+				672362D6247EF2BF004804F8 /* InspectPlumbingStatistic2VC.swift */,
+				67D42A2F248065370057764B /* InspectCompleteSummaryVC.swift */,
+				9FB3FABD2480F0D300C80AA1 /* InspectionPool.storyboard */,
+				9F796FAC244DD5D100D55EC1 /* InspectionPool_iPad.storyboard */,
+			);
+			path = InspectionPool;
+			sourceTree = "<group>";
+		};
+		9FE88369245AF213000811AE /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9FE88367245AF20E000811AE /* LeaktronicsTableCell.swift */,
+				9F1A312124A4D786008F29D3 /* PlumberModule */,
+				9F75C40E248DFD730029C550 /* InspectModule */,
+			);
+			path = UITableViewCell;
+			sourceTree = "<group>";
+		};
+		DE418EB147C4EBA9E48B6BF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DE9EC85CE5AF03F530ADD54 /* Pods_Leaktronics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67905634243B120300E24E4A /* Leaktronics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6790564C243B120500E24E4A /* Build configuration list for PBXNativeTarget "Leaktronics" */;
+			buildPhases = (
+				361DA662F2BB38C371CFFE19 /* [CP] Check Pods Manifest.lock */,
+				67905631243B120300E24E4A /* Sources */,
+				67905632243B120300E24E4A /* Frameworks */,
+				67905633243B120300E24E4A /* Resources */,
+				1F74656E962C796519B87A1A /* [CP] Embed Pods Frameworks */,
+				679C6F4124B8306B0010A24F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Leaktronics;
+			productName = Leaktronics;
+			productReference = 67905635243B120300E24E4A /* LeakTronics.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6790562D243B120300E24E4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Abhishek Mullick";
+				TargetAttributes = {
+					67905634243B120300E24E4A = {
+						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
+					};
+				};
+			};
+			buildConfigurationList = 67905630243B120300E24E4A /* Build configuration list for PBXProject "Leaktronics" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+				ja,
+				ru,
+			);
+			mainGroup = 6790562C243B120300E24E4A;
+			productRefGroup = 67905636243B120300E24E4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67905634243B120300E24E4A /* Leaktronics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67905633243B120300E24E4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67905669243B147600E24E4A /* Roboto-ThinItalic.ttf in Resources */,
+				9F19E9FD243CB1C800F6FA44 /* Poppins-Light.ttf in Resources */,
+				515C393E24B485180079794B /* Plumber_11Max.png in Resources */,
+				515C393224B485170079794B /* Inspection_8.png in Resources */,
+				6790566A243B147600E24E4A /* Roboto-BoldItalic.ttf in Resources */,
+				6790566B243B147600E24E4A /* Roboto-LightItalic.ttf in Resources */,
+				6790566E243B147600E24E4A /* LICENSE.txt in Resources */,
+				67905666243B147600E24E4A /* COPYRIGHT.txt in Resources */,
+				9F796FAD244DD5D100D55EC1 /* InspectionPool_iPad.storyboard in Resources */,
+				515C393B24B485180079794B /* Plumber_8s+.png in Resources */,
+				67905663243B147600E24E4A /* Roboto-Medium.ttf in Resources */,
+				67905670243B147600E24E4A /* Roboto-Bold.ttf in Resources */,
+				67905667243B147600E24E4A /* Roboto-Regular.ttf in Resources */,
+				515C393024B485170079794B /* Pool_8s+.png in Resources */,
+				515C393424B485170079794B /* Inspection_11Max.png in Resources */,
+				67905671243B147600E24E4A /* Roboto-Thin.ttf in Resources */,
+				515C393624B485180079794B /* Pool_8.png in Resources */,
+				9F05639C2449C22F00090C67 /* Main_iPad.storyboard in Resources */,
+				515C394024B485270079794B /* leaktronics-splash.png in Resources */,
+				9F796FAF244DD5F500D55EC1 /* Home_iPad.storyboard in Resources */,
+				515C393124B485170079794B /* Plumber_11.png in Resources */,
+				515C393A24B485180079794B /* Inspection_8s+.png in Resources */,
+				9FB3FABE2480F0D300C80AA1 /* InspectionPool.storyboard in Resources */,
+				6790566F243B147600E24E4A /* Roboto-BlackItalic.ttf in Resources */,
+				6790566C243B147600E24E4A /* DESCRIPTION.en_us.html in Resources */,
+				9F739480244F2CF2002F455F /* PlumberLeak_iPad.storyboard in Resources */,
+				9F19E9FE243CB1C800F6FA44 /* Poppins-Bold.ttf in Resources */,
+				679C6F4024B82EF50010A24F /* GoogleService-Info.plist in Resources */,
+				67FC7BE7243CA908006BD893 /* PoolDetection.storyboard in Resources */,
+				515C393324B485170079794B /* Pool_SE.png in Resources */,
+				9F19E9FC243CB1C800F6FA44 /* Poppins-Medium.ttf in Resources */,
+				67905648243B120500E24E4A /* LaunchScreen.storyboard in Resources */,
+				515C393524B485170079794B /* Pool_11.png in Resources */,
+				515C393824B485180079794B /* Plumber_8.png in Resources */,
+				67905665243B147600E24E4A /* METADATA.pb in Resources */,
+				67905664243B147600E24E4A /* Roboto-Light.ttf in Resources */,
+				515C393924B485180079794B /* Pool_11Max.png in Resources */,
+				9F796FAB244DD5C000D55EC1 /* PoolDetection_iPad.storyboard in Resources */,
+				9F19E9FF243CB1C800F6FA44 /* Poppins-Regular.ttf in Resources */,
+				9F19EA00243CB1C800F6FA44 /* Poppins-SemiBold.ttf in Resources */,
+				67905672243B147600E24E4A /* Roboto-Black.ttf in Resources */,
+				67905645243B120500E24E4A /* Assets.xcassets in Resources */,
+				67DDB82F243C290D0009E880 /* Home_iPhone.storyboard in Resources */,
+				6790566D243B147600E24E4A /* Roboto-Italic.ttf in Resources */,
+				67905668243B147600E24E4A /* Roboto-MediumItalic.ttf in Resources */,
+				67905640243B120300E24E4A /* Main_iPhone.storyboard in Resources */,
+				515C393724B485180079794B /* Inspection_SE.png in Resources */,
+				67FC7BD0243C75B1006BD893 /* PlumberLeak.storyboard in Resources */,
+				515C393C24B485180079794B /* Plumber_SE.png in Resources */,
+				515C393D24B485180079794B /* Inspection_11.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F74656E962C796519B87A1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Leaktronics/Pods-Leaktronics-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Leaktronics/Pods-Leaktronics-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Leaktronics/Pods-Leaktronics-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		361DA662F2BB38C371CFFE19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Leaktronics-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		679C6F4124B8306B0010A24F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67905631243B120300E24E4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F486B89243D96D60045EDFD /* UIViewControllerX.swift in Sources */,
+				9F67887B249272730012DEF6 /* PaymentVC.swift in Sources */,
+				9FB57FDC246AADD5004D9CD1 /* InspectAutofillVC.swift in Sources */,
+				9F1EC38A2488DC24005D748D /* ReportListVC.swift in Sources */,
+				67FC7BD3243C781A006BD893 /* PlumberContactFormVC.swift in Sources */,
+				9FB57FE7246AADD5004D9CD1 /* InspectLightVC.swift in Sources */,
+				9FB57FBC246AAD5C004D9CD1 /* InspectValvesTableCell.swift in Sources */,
+				9FB57FE2246AADD5004D9CD1 /* InspectValvesVC.swift in Sources */,
+				9F79DF86249C939200F92693 /* CardViewVC.swift in Sources */,
+				9F75C410248DFDBF0029C550 /* PlumberPhoneTableCell.swift in Sources */,
+				67DDB83F243C39080009E880 /* InspectionListCollectionViewCell.swift in Sources */,
+				67905678243B484100E24E4A /* RegistrationViewController.swift in Sources */,
+				672362DB247EF2C3004804F8 /* InspectVisualLeakVC.swift in Sources */,
+				9FB57FBE246AAD5C004D9CD1 /* InspectAutofillTableCell.swift in Sources */,
+				6790563D243B120300E24E4A /* LoginVC.swift in Sources */,
+				9FB57FC4246AAD5C004D9CD1 /* InspectPoolPumpTableCell.swift in Sources */,
+				67DDB831243C29280009E880 /* InspectionListVC.swift in Sources */,
+				78F16B5524C97483000E620E /* HelpCenterVC.swift in Sources */,
+				9FB57FEA246AADD5004D9CD1 /* InspectSelfCleaningVC.swift in Sources */,
+				9F1EC3862488C752005D748D /* SideMenuVC.swift in Sources */,
+				9F1EC3882488CF7F005D748D /* BaseViewController.swift in Sources */,
+				9FB57FC0246AAD5C004D9CD1 /* InspectFencingTableCell.swift in Sources */,
+				9FCE3FCF2445C3360062867D /* InspectionVC.swift in Sources */,
+				9FDF9E4F243DF0840021DEF8 /* QuestionnaireForm2VC.swift in Sources */,
+				672362DA247EF2C3004804F8 /* InspectPlumbingStatisticVC.swift in Sources */,
+				9F486B8A243D96D60045EDFD /* UIVisualEffectViewX.swift in Sources */,
+				9FB57FB9246AAD5C004D9CD1 /* InspectDeckTableCell.swift in Sources */,
+				9FB57FE0246AADD5004D9CD1 /* InspectSolarVC.swift in Sources */,
+				9FB57FD9246AADD5004D9CD1 /* InspectDeckVC.swift in Sources */,
+				67F112612472842100057B29 /* InspectFittingsTableCell.swift in Sources */,
+				9FB57FDB246AADD5004D9CD1 /* InspectPortableSpaVC.swift in Sources */,
+				9FB57FDD246AADD5004D9CD1 /* InspectSwimJetSystemVC.swift in Sources */,
+				9F8B037B2452D1AC00EE3328 /* Extension.swift in Sources */,
+				9FFC88ED248E430E000AFBF7 /* EditAccountSettingsVC.swift in Sources */,
+				6744C42924B7227C00819403 /* AccountSettingsVC.swift in Sources */,
+				9F486B8B243D96D60045EDFD /* NDView.m in Sources */,
+				9F0EA0EF249B930100695F03 /* HelpSupportTableCell.swift in Sources */,
+				9FB57FE3246AADD5004D9CD1 /* InspectSaltSystemVC.swift in Sources */,
+				9FB57FBA246AAD5C004D9CD1 /* InspectPortableSpaTableCell.swift in Sources */,
+				6764CF3824BF2CEE009059D6 /* PoolDetectVC.swift in Sources */,
+				67D42A30248065370057764B /* InspectCompleteSummaryVC.swift in Sources */,
+				9F67887624921A830012DEF6 /* NonCommercialLeakDetectionVC.swift in Sources */,
+				9F486B8C243D96D60045EDFD /* UIViewXRadialGradient.swift in Sources */,
+				9F7898C824AB9BAA0061EDB6 /* DatePickerDialog.swift in Sources */,
+				9FB57FE1246AADD5004D9CD1 /* InspectFencingVC.swift in Sources */,
+				9FB57FB6246AAD5C004D9CD1 /* InspectLightTableCell.swift in Sources */,
+				67905639243B120300E24E4A /* AppDelegate.swift in Sources */,
+				9F79DF88249C955F00F92693 /* TextField.swift in Sources */,
+				9F486B95243D96D60045EDFD /* NDTextField.m in Sources */,
+				9F796FB6244DD71400D55EC1 /* PlumbingStatistic2VC.swift in Sources */,
+				679F8EF3243E31BE0052E64E /* VisualLeakVC.swift in Sources */,
+				9F9E49042498BDF900F775CF /* ReportListTableCell.swift in Sources */,
+				9F486B94243D96D60045EDFD /* NDDropDown.m in Sources */,
+				9F72B70224484A2F0039AC2A /* UploadCollectionVw.swift in Sources */,
+				9F486B73243D90C60045EDFD /* QuestionnaireForm1VC.swift in Sources */,
+				9FB57FE9246AADD5004D9CD1 /* InspectPoolPumpVC.swift in Sources */,
+				672362DD247EF2E3004804F8 /* InspectVisualLeakTableCell.swift in Sources */,
+				6766D718248FD4190098C33D /* SubscriptionVC.swift in Sources */,
+				9FCE3FCB24458D630062867D /* InspectPoolContactVC.swift in Sources */,
+				9FB57FBB246AAD5C004D9CD1 /* InspectSolarTableCell.swift in Sources */,
+				9F8B03792452CA7100EE3328 /* ResetPasswordVC.swift in Sources */,
+				78F16B5724C9749E000E620E /* EmailTechnicalSupportVC.swift in Sources */,
+				9FE88368245AF20E000811AE /* LeaktronicsTableCell.swift in Sources */,
+				6766D716248FD4190098C33D /* HelpSupportVC.swift in Sources */,
+				9F486B93243D96D60045EDFD /* UIButtonX.swift in Sources */,
+				6782627F245588140006813A /* CommercialLeakDetectionVC.swift in Sources */,
+				9FB57FB7246AAD5C004D9CD1 /* InspectHeaterTableCell.swift in Sources */,
+				9FB57FEB246AADD5004D9CD1 /* InspectEdgeVC.swift in Sources */,
+				9F486B8E243D96D60045EDFD /* UISliderX.swift in Sources */,
+				678102C7245540250022610D /* PlumberPhoneQuestionVC.swift in Sources */,
+				9F75C412248E00A90029C550 /* CommercialTableCell.swift in Sources */,
+				9F486B92243D96D60045EDFD /* UITextFieldX.swift in Sources */,
+				672362D9247EF2C3004804F8 /* InspectPlumbingStatistic2VC.swift in Sources */,
+				9F486B90243D96D60045EDFD /* UIViewX.swift in Sources */,
+				67F5BC792474C00B00CCC0C4 /* InspectQuestionnaireFormVC.swift in Sources */,
+				9F796FBC244DD75D00D55EC1 /* PlumbingStatisticVC.swift in Sources */,
+				78F16B5924C993A4000E620E /* HelpCenterTableCell.swift in Sources */,
+				9FB57FC2246AAD5C004D9CD1 /* InspectSelfCleaningTableCell.swift in Sources */,
+				9F8B03772452CA5C00EE3328 /* Constant.swift in Sources */,
+				9FB57FE4246AADD5004D9CD1 /* InspectHandrailsVC.swift in Sources */,
+				67905676243B30B100E24E4A /* CustomOutlinedTxtField.swift in Sources */,
+				67FC7BE6243CA908006BD893 /* PoolDetectionContactVC.swift in Sources */,
+				9F8B03732452C8BB00EE3328 /* ApiManager.swift in Sources */,
+				67F112602472842100057B29 /* InspectionTableCell.swift in Sources */,
+				9FB57FE6246AADD5004D9CD1 /* InspectSideSuctionVC.swift in Sources */,
+				6790563B243B120300E24E4A /* SceneDelegate.swift in Sources */,
+				9FB57FE8246AADD5004D9CD1 /* InspectFittingsVC.swift in Sources */,
+				9FB57FC1246AAD5C004D9CD1 /* InspectClockTableCell.swift in Sources */,
+				9FB57FB8246AAD5C004D9CD1 /* InspectEdgeTableCell.swift in Sources */,
+				9FB57FDE246AADD5004D9CD1 /* InspectWaterFeatureVC.swift in Sources */,
+				9F67887924925E290012DEF6 /* ActiveSubscriptionVC.swift in Sources */,
+				9FB57FB5246AAD5C004D9CD1 /* InspectWaterFeatureTableCell.swift in Sources */,
+				9FB57FE5246AADD5004D9CD1 /* InspectOtherPumpVC.swift in Sources */,
+				9F6788742491FF080012DEF6 /* Reachability.swift in Sources */,
+				67D42A3224806A770057764B /* InspectSummaryTableCell.swift in Sources */,
+				9FB57FBD246AAD5C004D9CD1 /* InspectSaltSystemTableCell.swift in Sources */,
+				9FB57FC5246AAD5C004D9CD1 /* InspectSideSuctionTableCell.swift in Sources */,
+				9FB57FBF246AAD5C004D9CD1 /* InspectOtherPumpTableCell.swift in Sources */,
+				9FB57FB4246AAD5C004D9CD1 /* InspectHandrailsTableCell.swift in Sources */,
+				9F486B8D243D96D60045EDFD /* UIViewAnchorPoint.swift in Sources */,
+				9F486B91243D96D60045EDFD /* UILabelX.swift in Sources */,
+				9FB57FDF246AADD5004D9CD1 /* InspectClockVC.swift in Sources */,
+				9F486B8F243D96D60045EDFD /* UIImageViewX.swift in Sources */,
+				9FB57FC3246AAD5C004D9CD1 /* InspectSwimJetsTableCell.swift in Sources */,
+				67905643243B120300E24E4A /* Leaktronics.xcdatamodeld in Sources */,
+				676EFACF24C1E98700AB4610 /* ShowPDFVC.swift in Sources */,
+				9F486B88243D96D60045EDFD /* NDButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6790563E243B120300E24E4A /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6790563F243B120300E24E4A /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		67905646243B120500E24E4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67905647243B120500E24E4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9F05639A2449C22E00090C67 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F05639B2449C22F00090C67 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6790564A243B120500E24E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development: Abhishek Mullick (SDRQA6G5BB)";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6790564B243B120500E24E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development: Abhishek Mullick (SDRQA6G5BB)";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6790564D243B120500E24E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03B88D0B543833DBF212250C /* Pods-Leaktronics.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development: Abhishek Mullick (SDRQA6G5BB)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				"DEBUG_INFORMATION_FORMAT[sdk=iphonesimulator13.6]" = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = KZD4JK85SB;
+				INFOPLIST_FILE = Leaktronics/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivan.Leaktronics;
+				PRODUCT_NAME = LeakTronics;
+				PROVISIONING_PROFILE_SPECIFIER = LeaktonicsDevelopmentCer;
+				SWIFT_OBJC_BRIDGING_HEADER = "Leaktronics/Resources/Leaktronics-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6790564E243B120500E24E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF511D875C0AD88A7D56E008 /* Pods-Leaktronics.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development: Abhishek Mullick (SDRQA6G5BB)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.1;
+				DEVELOPMENT_TEAM = KZD4JK85SB;
+				INFOPLIST_FILE = Leaktronics/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ivan.Leaktronics;
+				PRODUCT_NAME = LeakTronics;
+				PROVISIONING_PROFILE_SPECIFIER = LeaktonicsDevelopmentCer;
+				SWIFT_OBJC_BRIDGING_HEADER = "Leaktronics/Resources/Leaktronics-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67905630243B120300E24E4A /* Build configuration list for PBXProject "Leaktronics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6790564A243B120500E24E4A /* Debug */,
+				6790564B243B120500E24E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6790564C243B120500E24E4A /* Build configuration list for PBXNativeTarget "Leaktronics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6790564D243B120500E24E4A /* Debug */,
+				6790564E243B120500E24E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		67905641243B120300E24E4A /* Leaktronics.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				67905642243B120300E24E4A /* Leaktronics.xcdatamodel */,
+			);
+			currentVersion = 67905642243B120300E24E4A /* Leaktronics.xcdatamodel */;
+			path = Leaktronics.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6790562D243B120300E24E4A /* Project object */;
+}
